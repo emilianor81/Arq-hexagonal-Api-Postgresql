@@ -1,0 +1,64 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Mac OS
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+.docker/
+.dockerignore
+
+# VSCode settings
+.vscode/
+.idea/
+
+# Coverage directory used by testing tools
+coverage/
+
+# TypeScript compiled files
+*.tsbuildinfo
+dist/
+build/
+
+# Ignore database files
+*.sqlite
+*.sqlite-journal
+
+# IDE specific
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional npm cache directory
+.npm
+
+# Output of 'npm pack'
+*.tgz
+
+# Sequelize migrations and seeds
+src/database/migrations/
+src/database/seeders/
+
+# PostgreSQL data
+postgres_data/
+
+# Ignore temporary files
+*.swp
+*~
